@@ -297,4 +297,39 @@ gap: 190px;
 font-size: 50px;
 font-weight: bold;
 }
+
+.footer-section{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+ padding-left: 60px;
+text-decoration: none;
+
+  }
+.footer-section li{
+ list-style-type: none;
+ gap: 15px;
+ color: #9e9b9b;
+
+}
+.social-icon{
+  display: flex;
+  width: 216px;
+  height: 36px;
+  size: 10px;
+  gap: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+.footer-section p{
+  display: flex;
+  margin-bottom: 15px;
+  width: 359px;
+  height: 179px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #9e9b9b;
+  
+}
   
