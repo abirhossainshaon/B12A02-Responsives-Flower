@@ -187,3 +187,114 @@ color: #000000;
   font-size: 22px;
   color: #f9ecec;
 }
+
+/* Latest Deal Section  */
+.latest-deal{
+  max-width: 1280px;
+ display: flex;
+ display: block;
+ justify-content: center;
+ text-align: center;
+ justify-content: center;
+ margin-left: 120px;
+ margin-bottom: 110px;
+  }
+  .latest-deal h1 {
+    font-size: 50px;
+    font-weight: bold;
+    /* width: 1440px; */
+    /* height: 138px; */
+  }
+    .latest-deal p{
+      margin-top: 16px;
+    }
+  /* Grid Container  */
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr);
+    gap: 10px;
+    width: 1140px;
+    height: 423px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 120px;
+    border-radius: 30px;
+  }
+  .left{
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    gap: 20px;
+    border-radius: 40px;
+  }
+ 
+  .right{
+    height: 100%;
+    border-radius: 40px;
+  }
+
+  /* join section  */
+  .join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 1140px;
+    height: 433px;
+    margin-bottom: 50px;
+   
+  }
+
+  /* join section  */
+  .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #FFFFFF;
+   
+  }
+
+  .join-section {
+    text-align: center;
+  }
+  .input-group input{
+    padding: 10px 15px;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    background-color: white;
+    width: 644px;
+    height: 50px;
+    margin-top: 150px;
+    gap: 0;
+   margin-bottom: 20px;
+  }
+  .input-group button{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 186px;
+    height: 50px;
+    padding: 0 26px;
+  }
+/* .input-group input h1{
+  margin-top: 50px;
+  text-align: center; */
+}
+.join{
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.join-section h1{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+gap: 190px;
+font-size: 50px;
+font-weight: bold;
+}
+  
