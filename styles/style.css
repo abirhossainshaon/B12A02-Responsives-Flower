@@ -141,6 +141,9 @@ background-color:  #E95A08;
 color: white;
 padding: 20px 10px;
 margin: 20px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .product-grid p{
@@ -152,4 +155,35 @@ margin: 20px 10px;
  justify-content: center;
  text-align: center;
  padding-left: 10px;
+}
+
+/* Flower Plants Lover */
+.flower-store{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 1140px;
+  height: 597px;
+  margin-top: 127px;
+  margin-bottom: 100px;
+
+
+}
+.flower-content{
+  margin-left: 20px;
+  flex: 1;
+ 
+} 
+.flower-img{
+margin-right: 140px;
+padding-right: 90px;
+}
+.flower-content h2{
+font-size: 50px;
+font-weight: bold;
+color: #000000;
+}
+.flower-content p{
+  font-size: 22px;
+  color: #f9ecec;
 }
