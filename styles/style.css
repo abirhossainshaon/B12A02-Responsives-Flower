@@ -1,3 +1,4 @@
+/* Font Section  */
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -29,7 +30,7 @@
   height: 50px;
 }
 
-/* Navigation links */
+/* Navbar links */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -46,6 +47,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+/* Header Section  */
 header{
   display: flex;
   justify-content: space-between;
@@ -132,8 +134,14 @@ header{
  max-width: 1280px;
  margin: 0 auto;
  margin-top: 20px;
+ }
+ .product-grid h3, p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-}
+ }
 .product-grid button{
 width: 270px;
 height: 50px;
@@ -155,6 +163,11 @@ align-items: center;
  justify-content: center;
  text-align: center;
  padding-left: 10px;
+ padding-top: 10px;
+}
+.product-grid {
+  margin-top: 10px;
+  
 }
 
 /* Flower Plants Lover */
@@ -185,7 +198,10 @@ color: #000000;
 }
 .flower-content p{
   font-size: 22px;
-  color: #f9ecec;
+  color: #b5b3b3;
+}
+.flower-content {
+  color: #9e9b9b;
 }
 
 /* Latest Deal Section  */
@@ -297,20 +313,23 @@ gap: 190px;
 font-size: 50px;
 font-weight: bold;
 }
-
+/* Footer Section  */
 .footer-section{
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
  padding-left: 60px;
 text-decoration: none;
+margin-bottom: 50px;
 
   }
 .footer-section li{
  list-style-type: none;
- gap: 15px;
+ gap: 15px 10px;
  color: #9e9b9b;
+ padding-top: 10px;
+
 
 }
 .social-icon{
@@ -324,12 +343,20 @@ text-decoration: none;
 }
 .footer-section p{
   display: flex;
-  margin-bottom: 15px;
-  width: 359px;
-  height: 179px;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 259px;
+  height: 81px;
+  margin-top: 20px;
   font-size: 16px;
   color: #9e9b9b;
-  
+  padding-right: 20px;
+  margin-right: 40px;
+}
+.footer-section logo {
+  margin-top: 5px;
+  padding-top: 5px;
+  width: 135px;
+  height: 22px;
+
 }
   
